@@ -1,0 +1,22 @@
+# SQLite context DB binaries and sidecars (keep schema.sql + CLI)
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+.abs/context.db
+.abs/context.db-*
+.abs/*.db-wal
+.abs/*.db-shm
+
+# Local agent scratch
+.tmp/
+.cache/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.Python
+
+# OS
+.DS_Store
+Thumbs.db
